@@ -132,6 +132,16 @@ body {
     justify-content: center;
   }
 
+  .container .grid-3 {
+    order: 3;
+  }
+  .container .grid-4 {
+    order: 4;
+  }
+  .container .grid-5 {
+    order: 5;
+  }
+
   .container .left {
     display: grid;
     width: 80%;
