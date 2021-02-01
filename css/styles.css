@@ -91,11 +91,9 @@ body {
   margin-right: 15px;
 }
 
-.profile .profile-details {
-}
-
 .profile-image {
   width: 40px;
   height: 40px;
+  border: 2px solid hsl(263, 45%, 63%);
   border-radius: 50%;
 }
