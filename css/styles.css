@@ -105,6 +105,20 @@ body {
 }
 
 @media screen and (min-width: 1439px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container .left {
+    display: grid;
+    width: 50%;
+  }
+
+  .container .right {
+    width: 24%;
+  }
+
   .card {
     box-shadow: none;
   }
