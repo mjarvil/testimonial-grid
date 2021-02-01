@@ -104,7 +104,7 @@ body {
   border-radius: 50%;
 }
 
-.container .left {
+.container {
   display: flex;
   flex-direction: column;
 }
@@ -142,7 +142,7 @@ body {
     order: 5;
   }
 
-  .container .left {
+  .container {
     display: grid;
     width: 80%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -150,7 +150,7 @@ body {
     grid-gap: 1.5em;
   }
 
-  .container .left .card {
+  .container .card {
     margin: 0;
   }
 
