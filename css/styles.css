@@ -21,6 +21,7 @@ body {
   padding: 30px 30px;
   margin: 20px;
   border-radius: 10px;
+  box-shadow: 0 0 10px 0.5px hsl(210, 46%, 95%);
 }
 
 .card .profile .profile-name {
@@ -91,10 +92,10 @@ body {
 }
 
 .profile .profile-details {
-  margin-top: 5px;
 }
 
 .profile-image {
-  width: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
