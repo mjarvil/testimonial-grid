@@ -103,3 +103,9 @@ body {
   border: 2px solid hsl(263, 45%, 63%);
   border-radius: 50%;
 }
+
+@media screen and (min-width: 1439px) {
+  .card {
+    box-shadow: none;
+  }
+}
