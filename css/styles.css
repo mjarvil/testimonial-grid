@@ -113,8 +113,9 @@ body {
 
   .container .left {
     display: grid;
-    width: 50%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     grid-gap: 0.9em;
   }
 
@@ -122,9 +123,9 @@ body {
     margin: 0;
   }
 
-  .container .right {
+  /* .container .right {
     width: 24%;
-  }
+  } */
 
   .container .right .card {
     margin-top: 0;
@@ -132,7 +133,7 @@ body {
 
   .grid-1 {
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 4;
   }
 
   .grid-4 {
