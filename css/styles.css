@@ -81,3 +81,8 @@ body {
 .dark-blue {
   background-color: hsl(219, 29%, 14%);
 }
+
+.profile-image {
+  width: 50px;
+  border-radius: 50%;
+}
