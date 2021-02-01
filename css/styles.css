@@ -107,16 +107,27 @@ body {
 @media screen and (min-width: 1439px) {
   .container {
     display: flex;
+    width: 100%;
     justify-content: center;
   }
 
   .container .left {
     display: grid;
     width: 50%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.9em;
+  }
+
+  .container .left .card {
+    margin: 0;
   }
 
   .container .right {
     width: 24%;
+  }
+
+  .container .right .card {
+    margin-top: 0;
   }
 
   .card {
