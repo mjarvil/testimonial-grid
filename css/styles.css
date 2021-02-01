@@ -104,6 +104,27 @@ body {
   border-radius: 50%;
 }
 
+.container .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .grid-1 {
+  order: 1;
+}
+.container .grid-2 {
+  order: 2;
+}
+.container .grid-3 {
+  order: 5;
+}
+.container .grid-4 {
+  order: 3;
+}
+.container .grid-5 {
+  order: 4;
+}
+
 @media screen and (min-width: 1439px) {
   .container {
     display: flex;
@@ -115,7 +136,6 @@ body {
     display: grid;
     width: 80%;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    /* grid-template-rows: 1fr 1fr; */
     grid-gap: 0.9em;
   }
 
@@ -133,11 +153,6 @@ body {
 
   .grid-1 {
     grid-column-start: 1;
-    grid-column-end: 4;
-  }
-
-  .grid-4 {
-    grid-column-start: 2;
     grid-column-end: 4;
   }
 
