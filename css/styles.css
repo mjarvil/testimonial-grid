@@ -29,6 +29,9 @@ body {
 
 .card h2 {
   margin: 1em 0;
+  font-weight: 600;
+  font-size: 1.4rem;
+  opacity: 0.9;
 }
 
 .theme-dark {
@@ -42,10 +45,27 @@ body {
 }
 
 .theme-light {
-  color: hsl(219, 29%, 14%);
+  color: hsl(217, 19%, 35%);
   background-color: hsl(0, 0%, 100%);
+}
+
+.theme-light .card-body h2 {
+  color: hsl(219, 29%, 14%);
+}
+
+.theme-dark .card-body p {
+  opacity: 0.7;
+  line-height: 20px;
 }
 
 .violet {
   background-color: hsl(263, 55%, 52%);
+}
+
+.gray {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.dark-blue {
+  background-color: hsl(219, 29%, 14%);
 }
