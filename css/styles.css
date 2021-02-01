@@ -21,3 +21,11 @@ body {
   margin: 20px;
   border-radius: 10px;
 }
+
+.theme-dark {
+  color: hsl(0, 0%, 100%);
+}
+
+.theme-light {
+  color: hsl(219, 29%, 14%);
+}
