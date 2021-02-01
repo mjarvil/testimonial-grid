@@ -130,10 +130,6 @@ body {
     margin-top: 0;
   }
 
-  .card {
-    box-shadow: none;
-  }
-
   .grid-1 {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -142,5 +138,26 @@ body {
   .grid-4 {
     grid-column-start: 2;
     grid-column-end: 4;
+  }
+
+  .card {
+    box-shadow: none;
+    padding: 30px;
+  }
+
+  .card .profile .profile-name {
+    font-size: 0.8rem;
+  }
+
+  .card .profile .profile-category {
+    font-size: 0.6rem;
+  }
+
+  .card .card-body p {
+    font-size: 0.8rem;
+  }
+
+  .card h2 {
+    font-size: 1rem;
   }
 }
