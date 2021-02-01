@@ -82,6 +82,18 @@ body {
   background-color: hsl(219, 29%, 14%);
 }
 
+.profile {
+  display: flex;
+}
+
+.profile img {
+  margin-right: 15px;
+}
+
+.profile .profile-details {
+  margin-top: 5px;
+}
+
 .profile-image {
   width: 50px;
   border-radius: 50%;
