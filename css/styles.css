@@ -114,7 +114,7 @@ body {
   .container .left {
     display: grid;
     width: 50%;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 0.9em;
   }
 
